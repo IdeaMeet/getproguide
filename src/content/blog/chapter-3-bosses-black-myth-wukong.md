@@ -6,7 +6,7 @@ slug: chapter-3-bosses-black-myth-wukong
 featured: true
 draft: false
 tags:
-  - Black Myth: Wukong
+  - Black Myth Wukong
   - Game Guide
   - Boss Fights
 description: "A comprehensive guide to all required and optional bosses in Chapter 3 of Black Myth: Wukong, including their locations and basic battle strategies."
