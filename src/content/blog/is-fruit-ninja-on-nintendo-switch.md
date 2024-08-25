@@ -2,7 +2,7 @@
 title: "Is Fruit Ninja Available on Nintendo Switch?"
 description: "Discover whether the popular mobile game Fruit Ninja has made its way to the Nintendo Switch platform, and explore alternative fruit-slicing games available on the console."
 pubDatetime: 2024-03-14T12:00:00Z
-author: "Gaming Expert"
+author: "GetProGuide.com"
 tags:
   - gaming
   - nintendo-switch
