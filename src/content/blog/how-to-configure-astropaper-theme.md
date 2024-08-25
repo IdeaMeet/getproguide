@@ -1,161 +1,45 @@
 ---
-author: Sat Naing
-pubDatetime: 2022-09-23T04:58:53Z
-modDatetime: 2024-01-15T13:05:56.066Z
-title: How to configure AstroPaper theme
-slug: how-to-configure-astropaper-theme
-featured: true
-draft: false
+title: "Is Fruit Ninja Available on Nintendo Switch?"
+description: "Discover whether the popular mobile game Fruit Ninja has made its way to the Nintendo Switch platform, and explore alternative fruit-slicing games available on the console."
+pubDatetime: 2024-03-14T12:00:00Z
+author: "Gaming Expert"
 tags:
-  - configuration
-  - docs
-description: How you can make AstroPaper theme absolutely yours.
+  - gaming
+  - nintendo-switch
+  - fruit-ninja
+  - mobile-games
+featured: false
+draft: false
 ---
 
-AstroPaper is a highly customizable Astro blog theme. With AstroPaper, you can customize everything according to your personal taste. This article will explain how you can make some customizations easily in the config file.
+As a gaming enthusiast, you might wonder if the wildly popular mobile game Fruit Ninja is available on the Nintendo Switch. Let's slice through the facts and provide you with the juicy details.
 
 ## Table of contents
 
-## Configuring SITE
+## The Core Question: Fruit Ninja on Switch?
 
-The important configurations lies in `src/config.ts` file. Within that file, you'll see the `SITE` object where you can specify your website's main configurations.
+Unfortunately, as of now, Fruit Ninja is not officially available on the Nintendo Switch platform. The game, developed by Halfbrick Studios, remains primarily a mobile game experience, with versions available for iOS and Android devices, as well as some adaptations for other platforms like Xbox Kinect.
 
-During development, it's okay to leave `SITE.website` empty. But in production mode, you should specify your deployed url in `SITE.website` option since this will be used for canonical URL, social card URL etc.. which are important for SEO.
+## Why Isn't Fruit Ninja on Switch?
 
-```js
-// file: src/config.ts
-export const SITE = {
-  website: "https://astro-paper.pages.dev/",
-  author: "Sat Naing",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
-  ogImage: "astropaper-og.jpg",
-  lightAndDarkMode: true,
-  postPerPage: 3,
-  scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
-};
-```
+There could be several reasons for the absence of Fruit Ninja on the Nintendo Switch:
 
-Here are SITE configuration options
+1. Developer focus: Halfbrick Studios may be concentrating on mobile platforms where the game has found its greatest success.
+2. Control scheme: The Switch's unique controls might require significant redesign of the game's core mechanics.
+3. Market strategy: The developers may not see enough potential return on investment for a Switch port.
 
-| Options               | Description                                                                                                                                                                                                                                         |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `website`             | Your deployed website url                                                                                                                                                                                                                           |
-| `author`              | Your name                                                                                                                                                                                                                                           |
-| `desc`                | Your site description. Useful for SEO and social media sharing.                                                                                                                                                                                     |
-| `title`               | Your site name                                                                                                                                                                                                                                      |
-| `ogImage`             | Your default OG image for the site. Useful for social media sharing. OG images can be an external image url or they can be placed under `/public` directory.                                                                                        |
-| `lightAndDarkMode`    | Enable or disable `light & dark mode` for the website. If disabled, primary color scheme will be used. This option is enabled by default.                                                                                                           |
-| `postPerIndex`        | The number of posts to be displayed at the home page under `Recent` section.                                                                                                                                                                        |
-| `postPerPage`         | You can specify how many posts will be displayed in each posts page. (eg: if you set SITE.postPerPage to 3, each page will only show 3 posts per page)                                                                                              |
-| `scheduledPostMargin` | In Production mode, posts with a future `pubDatetime` will not be visible. However, if a post's `pubDatetime` is within the next 15 minutes, it will be visible. You can set `scheduledPostMargin` if you don't like the default 15 minutes margin. |
+## Alternatives for Fruit-Slicing Fun on Switch
 
-## Configuring locale
+While Fruit Ninja itself isn't available, Nintendo Switch owners aren't left without options for fruit-slicing action. Here are some alternatives that might satisfy your craving:
 
-You can configure the default locale used for the build (e.g., date format in the post page), and for the rendering in browsers (e.g., date format in the search page)
+1. **Fruit Ninja-inspired games**: Look for games in the Nintendo eShop that feature similar fruit-slicing mechanics.
+2. **Party games with mini-games**: Many party game collections on Switch include fruit-slicing mini-games that capture a similar feel.
+3. **Action games with slicing mechanics**: Some action or fighting games on Switch may incorporate slicing mechanics that could scratch that Fruit Ninja itch.
 
-```js
-// file: src/config.ts
-export const LOCALE = {
-  lang: "en", // html lang code. Set this empty and default will be "en"
-  langTag: ["en-EN"], // BCP 47 Language Tags. Set this empty [] to use the environment default
-} as const;
-```
+## The Future of Fruit Ninja on Switch
 
-`LOCALE.lang` will be used as HTML ISO Language code in `<html lang="en">`. If you don't specify this, default fallback will be set to `en`.
-`LOCALE.langTag` is used as [datetime locale](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString#locales). For this, you can specify an array of locales for fallback languages. Leave `LOCALE.langTag` empty `[]` to use the environment default at _build-_ and _run-time_.
-
-## Configuring logo or title
-
-You can specify site's title or logo image in `src/config.ts` file.
-
-![An arrow pointing at the website logo](https://res.cloudinary.com/noezectz/v1663911318/astro-paper/AstroPaper-logo-config_goff5l.png)
-
-```js
-// file: src/config.ts
-export const LOGO_IMAGE = {
-  enable: false,
-  svg: true,
-  width: 216,
-  height: 46,
-};
-```
-
-If you specify `LOGO_IMAGE.enable` => `false`, AstroPaper will automatically convert `SITE.title` to the main site text logo.
-
-If you specify `LOGO_IMAGE.enable` => `true`, AstroPaper will use the logo image as the site's main logo.
-
-You have to specify `logo.png` or `logo.svg` under `/public/assets` directory. Currently, only svg and png image file formats are supported. (**_Important!_** _logo name has to be logo.png or logo.svg)_
-
-If your logo image is png file format, you have to set `LOGO_IMAGE.svg` => `false`.
-
-It is recommended that you specify width and height of your logo image. You can do that by setting `LOGO_IMAGE.width` _and_ `LOGO_IMAGE.height`
-
-## Configuring social links
-
-You can configure your own social links along with its icons.
-
-![An arrow pointing at social link icons](https://res.cloudinary.com/noezectz/v1663914759/astro-paper/astro-paper-socials_tkcjgq.png)
-
-Currently 20 social icons are supported. (Github, LinkedIn, Facebook etc.)
-
-You can specify and enable certain social links in hero section and footer. To do this, go to `/src/config.ts` and then you'll find `SOCIALS` array of object.
-
-```js
-// file: src/config.ts
-export const SOCIALS: SocialObjects = [
-  {
-    name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: ` ${SITE.title} on Github`,
-    active: true,
-  },
-  {
-    name: "Facebook",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Facebook`,
-    active: true,
-  },
-  {
-    name: "Instagram",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Instagram`,
-    active: true,
-  },
-  ...
-]
-```
-
-You have to set specific social link to `active: true` in order to appear your social links in hero and footer section. Then, you also have to specify your social link in `href` property.
-
-For instance, if I want to make my Github appear, I'll make it like this.
-
-```js
-export const SOCIALS: SocialObjects = [
-  {
-    name: "Github",
-    href: "https://github.com/satnaing", // update account link
-    linkTitle: `${SITE.title} on Github`, // this text will appear on hover and VoiceOver
-    active: true, // makre sure to set active to true
-  }
-  ...
-]
-```
-
-Another thing to note is that you can specify the `linkTitle` in the object. This text will display when hovering on the social icon link. Besides, this will improve accessibility and SEO. AstroPaper provides default link title values; but you can replace them with your own texts.
-
-For example,
-
-```js
-linkTitle: `${SITE.title} on Twitter`,
-```
-
-to
-
-```js
-linkTitle: `Follow ${SITE.title} on Twitter`;
-```
+While there are no current announcements, it's always possible that Halfbrick Studios or Nintendo might surprise us with a Switch version of Fruit Ninja in the future. Keep an eye on official announcements from both companies.
 
 ## Conclusion
 
-This is the brief specification of how you can customize this theme. You can customize more if you know some coding. For customizing styles, please read [this article](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/). Thanks for reading.✌🏻
+In conclusion, while Fruit Ninja isn't currently available on the Nintendo Switch, there are alternatives that can provide similar gameplay experiences. As the gaming landscape is always evolving, it's worth keeping an eye out for any future announcements. In the meantime, enjoy the wide variety of games the Switch has to offer, and who knows – you might find a new favorite that's even more appealing than slicing virtual fruit!
