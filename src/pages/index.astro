@@ -20,6 +20,15 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 ---
 
 <Layout>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ELT35W4B72"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ELT35W4B72');
+</script>
   <Header />
   <main id="main-content">
     <section id="hero">
