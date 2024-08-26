@@ -10,9 +10,10 @@ import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SITE, SOCIALS } from "@config";
 import Search from "@components/Search";
-const posts = await getCollection("blog");
 
+const posts = await getCollection("blog");
 const sortedPosts = getSortedPosts(posts);
+
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 const socialCount = SOCIALS.filter(social => social.active).length;
@@ -28,6 +29,8 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
   gtag('config', 'G-ELT35W4B72');
 </script>
+
+
   <Header />
   <main id="main-content">
     <section id="hero">
@@ -51,10 +54,9 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
       <p>
         GetProGuide brings together wisdom from experts across various fields, offering reliable advice and practical solutions. From everyday life to specialized skills, get clear guidance to tackle challenges with ease. Explore expert insights and make informed decisions!
-
-
       </p>
-<Search client:only="react" searchList={posts} />
+      <Search client:load searchList={sortedPosts} />
+
     </section>
 
     <Hr />
