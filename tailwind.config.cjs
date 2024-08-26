@@ -56,6 +56,7 @@ module.exports = {
       },
       fontFamily: {
         mono: ["IBM Plex Mono", "monospace"],
+        sans: ["Inter", "sans-serif"], // 添加这一行
       },
 
       typography: {
