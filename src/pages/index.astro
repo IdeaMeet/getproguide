@@ -15,6 +15,7 @@ const posts = await getCollection("blog");
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
+const posts = await getCollection("blog");
 
 const socialCount = SOCIALS.filter(social => social.active).length;
 ---
