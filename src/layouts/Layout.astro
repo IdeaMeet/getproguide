@@ -17,7 +17,6 @@ export interface Props {
   scrollSmooth?: boolean;
 }
 
-
 const {
   title = SITE.title,
   author = SITE.author,
@@ -133,6 +132,15 @@ const structuredData = {
     <ViewTransitions />
 
     <script is:inline src="/toggle-theme.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ELT35W4B72"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ELT35W4B72');
+</script>
   </head>
   <body>
     <slot />
