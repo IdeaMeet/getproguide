@@ -27,9 +27,10 @@ const {
     </span>
   ) : (
     <a
-      href={href}
-      class="focus-outline inline-block cursor-pointer rounded-lg bg-skin-accent px-4 py-2 text-skin-inverted transition-colors duration-200 hover:bg-skin-accent/80"
-      {...props}
+      {href}
+      class:list={["group inline-block hover:text-skin-accent", className]}
+      aria-label={ariaLabel}
+      title={title}
     >
       <slot />
     </a>
