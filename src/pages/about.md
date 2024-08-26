@@ -3,34 +3,41 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+Welcome to GetProGuide, your trusted source for expert knowledge and practical solutions across a wide range of fields. Our mission is to empower individuals with reliable advice and actionable insights to navigate life's challenges with confidence.
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+Founded in 2014, GetProGuide has quickly become a go-to platform for those seeking clear, expert-driven guidance. We've proudly served over 10 million users, helping them make informed decisions in both their personal and professional lives.
 
 <div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+  <img src="/public/assets/logo.svg" class="sm:w-1/2 mx-auto" alt="expert guidance illustration">
 </div>
 
-## Tech Stack
+## Our Approach
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+At GetProGuide, we believe that everyone deserves access to high-quality, trustworthy information. Our team of seasoned experts and skilled writers work tirelessly to:
 
-## Features
+- Curate wisdom from industry leaders and specialists
+- Break down complex topics into easy-to-understand guides
+- Provide practical, step-by-step solutions to common challenges
+- Offer insights that help you make better-informed decisions
 
-Here are certain features of this site.
+## What Sets Us Apart
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
+- **Diverse Expertise**: From everyday life skills to specialized professional knowledge, we cover it all.
+- **Quality Assurance**: Every piece of content undergoes rigorous fact-checking and editorial review.
+- **User-Centric Design**: Our platform is designed for easy navigation and accessibility.
+- **Continuous Updates**: We regularly refresh our content to ensure it remains relevant and accurate.
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+## Our Impact
+
+Since our inception, GetProGuide has:
+
+- Published over 100 expert-verified guides
+- Collaborated with 100+ industry-leading professionals
+- Been featured in 100+ notable publications or media outlets
+- Helped users save an estimated 100,000 hours in research time
+
+We're committed to continually expanding our knowledge base and improving our services to meet your evolving needs.
+
+Thank you for choosing GetProGuide as your trusted source for expert guidance. We're here to help you tackle challenges, learn new skills, and make confident decisions in all aspects of life.
+
+For any feedback or suggestions, please don't hesitate to [contact us](mailto:vinebyte@gmail.com). Your input helps us grow and serve you better!
