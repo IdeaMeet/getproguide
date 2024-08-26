@@ -7,9 +7,7 @@ Welcome to GetProGuide, your trusted source for expert knowledge and practical s
 
 Founded in 2014, GetProGuide has quickly become a go-to platform for those seeking clear, expert-driven guidance. We've proudly served over 10 million users, helping them make informed decisions in both their personal and professional lives.
 
-<div>
-  <img src="/public/assets/logo.svg" class="sm:w-1/2 mx-auto" alt="expert guidance illustration">
-</div>
+
 
 ## Our Approach
 
