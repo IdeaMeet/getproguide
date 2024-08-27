@@ -3,7 +3,7 @@ title: "Is the Deluxe Edition of Black Myth Wukong Worth It?"
 author: "GetProGuide.com"
 pubDatetime: 2024-08-25T12:00:00Z
 slug: black-myth-wukong-deluxe-edition-worth-it
-featured: true
+featured: false
 draft: false
 tags:
   - Black Myth Wukong

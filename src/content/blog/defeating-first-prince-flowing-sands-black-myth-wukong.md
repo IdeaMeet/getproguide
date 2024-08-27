@@ -6,7 +6,7 @@ featured: false
 draft: false
 tags:
   - blackmythwukong
-  - bossfight
+  - Boss Fight
   - gaming
   - guide
 description: Master the battle against the First Prince of Flowing Sands in Black Myth Wukong with our comprehensive boss fight strategy guide.

@@ -3,11 +3,11 @@ title: "Black Myth Wukong - Lang-Li-Guhh-Baw Boss Guide"
 author: "GetProGuide.com"
 pubDatetime: 2024-08-25T12:00:00Z
 slug: black-myth-wukong-lang-li-guhh-baw-boss-guide
-featured: true
+featured: false
 draft: false
 tags:
   - Black Myth Wukong
-  - Boss Guide
+  - Boss Fight
   - Lang-Li-Guhh-Baw
 description: "A comprehensive guide to defeating Lang-Li-Guhh-Baw, the first boss in Chapter 2 of Black Myth: Wukong."
 ---

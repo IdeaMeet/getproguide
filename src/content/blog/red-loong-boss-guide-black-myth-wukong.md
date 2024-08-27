@@ -5,7 +5,7 @@ pubDatetime: 2024-08-26T09:00:00Z
 author: "GetProGuide.com"
 tags:
   - Black Myth Wukong
-  - boss guide
+  - Boss Fight
   - Red Loong
   - gaming strategy
 featured: false

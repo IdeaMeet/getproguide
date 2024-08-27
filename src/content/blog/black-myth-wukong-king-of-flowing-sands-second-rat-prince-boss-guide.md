@@ -3,11 +3,11 @@ title: "Black Myth Wukong - King of Flowing Sands and Second Rat Prince Boss Gui
 author: "GetProGuide.com"
 pubDatetime: 2024-08-25T12:00:00Z
 slug: black-myth-wukong-king-of-flowing-sands-second-rat-prince-boss-guide
-featured: true
+featured: false
 draft: false
 tags:
   - Black Myth Wukong
-  - Boss Guide
+  - Boss Fight
   - King of Flowing Sands
   - Second Rat Prince
 description: "A comprehensive guide to defeating the King of Flowing Sands and Second Rat Prince, a required Yaoguai Chief miniboss duo in Chapter 2 of Black Myth Wukong."

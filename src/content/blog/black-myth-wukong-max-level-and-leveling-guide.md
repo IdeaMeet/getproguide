@@ -8,7 +8,7 @@ tags:
   - leveling guide
   - max level
   - gaming strategy
-featured: true
+featured: false
 draft: false
 ---
 

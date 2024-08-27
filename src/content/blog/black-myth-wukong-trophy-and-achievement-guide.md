@@ -8,7 +8,7 @@ tags:
   - trophy guide
   - achievements
   - gaming strategy
-featured: true
+featured: false
 draft: false
 ---
 

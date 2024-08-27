@@ -8,7 +8,7 @@ tags:
   - achievements
   - trophies
   - gaming guide
-featured: true
+featured: false
 draft: false
 ---
 

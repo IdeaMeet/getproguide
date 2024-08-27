@@ -3,7 +3,7 @@ title: "Black Myth Wukong - Physical Release Details and Explanation"
 author: "GetProGuide.com"
 pubDatetime: 2024-08-25T10:00:00Z
 slug: black-myth-wukong-physical-release
-featured: true
+featured: false
 draft: false
 tags:
   - Black Myth Wukong

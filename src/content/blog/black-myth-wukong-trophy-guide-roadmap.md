@@ -8,7 +8,7 @@ tags:
   - trophy guide
   - gaming strategy
   - platinum trophy
-featured: true
+featured: false
 draft: false
 ---
 

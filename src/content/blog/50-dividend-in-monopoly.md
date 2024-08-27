@@ -8,7 +8,7 @@ tags:
   - monopoly
   - strategy
   - game history
-featured: true
+featured: false
 draft: false
 ---
 

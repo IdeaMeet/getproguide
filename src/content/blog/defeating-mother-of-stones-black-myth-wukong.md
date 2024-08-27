@@ -6,7 +6,7 @@ featured: false
 draft: false
 tags:
   - Black Myth Wukong
-  - bossfight
+  - Boss Fight
   - gaming
   - guide
 description: Master the unique battle against the Mother of Stones in Black Myth Wukong with our comprehensive strategy guide for this challenging optional boss.

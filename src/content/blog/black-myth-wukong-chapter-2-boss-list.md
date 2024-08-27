@@ -3,11 +3,11 @@ title: "Black Myth Wukong - Chapter 2 Boss List"
 author: "GetProGuide.com"
 pubDatetime: 2024-08-25T12:00:00Z
 slug: black-myth-wukong-chapter-2-boss-list
-featured: true
+featured: false
 draft: false
 tags:
   - Black Myth Wukong
-  - Boss Guide
+  - Boss Fight
   - Chapter 2
 description: "A comprehensive list of all bosses in Chapter 2 of Black Myth: Wukong, including their locations and rewards."
 ---

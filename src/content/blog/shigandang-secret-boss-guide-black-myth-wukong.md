@@ -6,7 +6,7 @@ featured: false
 draft: false
 tags:
   - Black Myth Wukong
-  - Secret Boss
+  - Boss Fight
   - gaming
   - strategy
 description: Comprehensive guide to unlocking and defeating Shigandang the secret optional Yaoguai King boss in Black Myth Wukong including location eyeball collection and battle strategies.

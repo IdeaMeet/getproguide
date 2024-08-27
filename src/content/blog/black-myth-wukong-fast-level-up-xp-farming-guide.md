@@ -8,7 +8,7 @@ tags:
   - leveling guide
   - XP farming
   - gaming strategy
-featured: true
+featured: false
 draft: false
 ---
 
