@@ -1,6 +1,6 @@
 {
-  "name": "astro-paper",
-  "version": "4.4.0",
+  "name": "getproguide.com",
+  "version": "4.4.4",
   "private": false,
   "scripts": {
     "dev": "astro dev",
