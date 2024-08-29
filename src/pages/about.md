@@ -9,6 +9,7 @@ Founded in 2014, GetProGuide has quickly become a go-to platform for those seeki
 
 <div>
   <img src="/assets/logo.svg" class="sm:w-1/2 mx-auto" alt="expert guidance illustration" style="width: 50px; height: 50px;">
+  <p>GetProGuide.com</p>
 </div>
 
 ## Our Approach
